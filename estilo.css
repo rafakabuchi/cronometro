@@ -1,0 +1,49 @@
+        body {
+            background-color: #a5eb9d;
+        }
+
+        header {
+            background-color: #3b4a14;
+            padding-top: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        #cronometro {
+            text-align: center;
+            background-color: #3b4a14;
+            margin: 10px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 45pt;
+            margin-bottom: 0px;
+        }
+
+        #btnIniciar {
+            border-radius: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #btnZerar {
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+        }
+
+        #regressivo {
+            margin-top: 50px;
+            margin-left: -75px;
+
+        }

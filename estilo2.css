@@ -1,0 +1,85 @@
+html,
+body {
+    height: 99%;
+}
+
+body {
+    background-color: #76becf;
+}
+
+header {
+    background-color: #0d5b6e;
+    padding-top: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #fff;
+}
+
+#mostrarValor {
+    text-align: center;
+    background-color: #0d5b6e;
+    color: #fff;
+    width: 100%;
+}
+
+button {
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#config {
+    text-align: center;
+    font-size: 30pt;
+    color: #fff;
+}
+
+span {
+    color: #fff;
+    font-size: 15pt;
+    margin: auto;
+}
+
+#seg {
+    width: 40%;
+    margin-left: 26px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#min {
+    width: 40%;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+
+#regressivo {
+    margin-top: 50px;
+}
+
+p {
+    color: #fff;
+    font-size: 30pt;
+    text-align: center;
+}
+
+#cronometro {
+    text-align: center;
+    margin: 10px;
+    border: 0px solid white;
+    font-size: 50pt;
+}
+
+#simples {
+    margin-top: 50px;
+    margin-left: -75px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}

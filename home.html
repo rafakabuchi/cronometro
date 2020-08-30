@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Cronômetro Simples</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <br /><br />
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div id="cronometro" class="col-md-6">
+                        <p>
+                            <span id="timer_horas">00</span> :
+                            <span id="timer_minutos">00</span> :
+                            <span id="timer_segundos">00</span> :
+                            <span id="timer_decimo">00</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <br />
+                        <button id="btnIniciar" class="btn btn-light" onclick="iniciarCronometro()">INICIAR</button>
+                        <button id="btnZerar" class="btn btn-light" onclick="zerarCronometro()">ZERAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-4">
+                <a id="regressivo" class="btn btn-light" href="regressivo.html" role="button">Contador Regressivo</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="crono.js "></script>
+</body>
+
+</html>

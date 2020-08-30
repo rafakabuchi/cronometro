@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CRONÔMETRO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="estilo2.css" />
+
+</head>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div id="exibe" class="col-md-12 text-center">
+
+                <h1>Exibição</h1>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section>
+        <div class="container">
+            <br /><br />
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div id="cronometro" class="col-md-6">
+
+                    <input class="mostrarValor" type="text" id="mostrarValor" size="2" readonly="readonly" value="00:00" /></p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <br />
+                    <p>Configuração</p><br />
+                    <span for="min">Colocar minutos: &nbsp;&nbsp;</span>
+                    <input type="text" id="min" size="2" maxlength="3"></input><br>
+                    <span for="seg">Colocar segundos: &nbsp;&nbsp;</span>
+                    <input type="text" id="seg" size="2" maxlength="2"></input><br>
+                    <p>Comandos</p>
+                    <br>
+                    <button class="btn btn-light" value="INICIAR" id="btnIniciar" onclick="IniciarCronometro('start')">INICIAR</button>
+                    <button class="btn btn-light" value="PAUSAR" id="btnPausar" onclick="PausarCronometro()" disabled="disabled">PAUSAR</button>
+                    <button class="btn btn-light" value="RESETAR" id="btnResetar" onclick="ResetarCronometro()" disabled="disabled">RESETAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <a id="simples" class="btn btn-light" href="home.html" role="button">Contador Simples</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="regressivo.js"></script>
+</body>
+
+</html>
